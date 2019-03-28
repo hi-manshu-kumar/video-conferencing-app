@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video Conferencing app</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="./assets/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="room-name">Room Name</label>
+                <input type="text" name="room-name">
+            </div>
+            <button id="join-call">Join Call</button>
+            <button id="endCall">end call</button>
+            <button id="muteCall">Mute call</button>
+            <button id="hideCamCall">Hide Cam call</button>
+        </div>
+        <div id="video"></div>
+    </div>
+    <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>
+</body>
+</html>

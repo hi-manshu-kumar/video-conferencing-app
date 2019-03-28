@@ -24,3 +24,6 @@ function generateToken(expiresInSeconds){
     let serialized = body + '\0' + mac;
     return btoa(serialized);
 }
+
+
+module.exports = {generateToken}
