@@ -1,0 +1,25 @@
+{
+  "name": "video-conferencing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-manshu-kumar/video-conferencing-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hi-manshu-kumar/video-conferencing-app/issues"
+  },
+  "homepage": "https://github.com/hi-manshu-kumar/video-conferencing-app#readme",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jssha": "^2.3.1"
+  }
+}
